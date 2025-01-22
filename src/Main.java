@@ -3,7 +3,7 @@ import java.net.Socket;
 
 public class Main {
     public static void main(String[] args) {
-        String host = "localhost";
+        String host = "192.168.115.153";
         int puerto = 5555;
         Zerbitzaria zerbitzaria = new Zerbitzaria(host, puerto);
 
