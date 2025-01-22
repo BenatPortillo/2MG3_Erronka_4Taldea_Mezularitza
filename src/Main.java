@@ -23,7 +23,7 @@ public class Main {
                             zerbitzaria.bidaliMezuaDenei(mezua, bezero);
                         }
                     } catch (IOException e) {
-                        System.err.println("Errorea bezeroaren komunikazioan: " + e.getMessage());
+                        System.err.println("Bezeroa deskonektatu da: ");
                     } finally {
                         try {
                             bezero.cerrar();
